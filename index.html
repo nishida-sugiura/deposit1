@@ -7,7 +7,7 @@
   <title>Get/Post with Google SpreadSheet</title>
 </head>
 <body>
-  <p>デポジット用のIDを入力してください。abc<br></p>
+  <p>デポジット用のIDを入力してください。<br></p>
 
 
 
@@ -30,9 +30,9 @@
 
     //GAS WebアプリのURL
 
-const END_POINT ="https://script.google.com/macros/s/AKfycbxaNnD1J2Wn0_SyvHxOxSFafCSEN2NY2ohGkygylVMpi0LAmUk_jIVFyhv3lBF-cPSO/exec";
+//const END_POINT ="https://script.google.com/macros/s/AKfycbzaxbellO8xgR3KCMqzfLkzYpg8ZC-mJbodMkDiTh9fJyujdy59zhxirp0FAkvzTE3F/exec";
 
-//const END_POINT = "https://script.google.com/macros/s/AKfycby4ibg1Y_JZv7yPMPjqglSPfqOwK4R43ju2qu5-PcqVsfByfd1uAPB2bLUctZrWwZU7/exec";
+const END_POINT = "https://script.google.com/macros/s/AKfycby4ibg1Y_JZv7yPMPjqglSPfqOwK4R43ju2qu5-PcqVsfByfd1uAPB2bLUctZrWwZU7/exec";
 
     //読み書きするスプレッドシート（タブ）の番号
     const SHEET_NO = 1; 
@@ -100,15 +100,9 @@ let Content =JSON.stringify([Content0]);
       });
     }
 
-
-
-
 //function clearTextarea() {
 //	var textareaForm = document.getElementById("textArea");
 // textareaForm.value = '';}
-
-
-
 
   </script>
 
